@@ -1,0 +1,219 @@
+body {}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.main-container {
+    width: 100%
+}
+
+.flex-container {
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.menu {
+    display: flex;
+    min-width: 200px;
+    color: white;
+    font-size: 1.25em;
+    text-align: relative;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-container {
+    margin: 0%;
+    display: flex;
+    position: relative;
+    text-align: relative;
+}
+
+#profile-picture {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 7%;
+    border-radius: 50%;
+}
+
+#banner-image {
+    width: 100%;
+    position: relative;
+    opacity: 1;
+}
+
+.banner-title {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.banner-subtitle {
+    position: absolute;
+    top: 61%;
+    left: 40%;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skill-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-left: auto;
+    padding-bottom: 0px;
+}
+
+.skill1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#picture {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 200px;
+}
+
+#skill-text {
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 240px;
+}
+
+.myskill-text {
+    display: flex;
+    position: absolute;
+    color: black;
+    widows: 100%;
+    font-weight: bold;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+#myskill-text {
+    margin-left: 10%;
+}
+
+.portfolio-heading {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    widows: 100%;
+    font-weight: bold;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 150px;
+}
+
+.portfolio-title {
+    margin-left: 5%;
+}
+
+.portfolio-container {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 200px;
+}
+
+#port-img {
+    width: 225px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 125px;
+}
+
+.port-desc {
+    margin-left: 20px;
+    margin-top: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.port-name {
+    font-weight: bolder;
+}
+
+.port-info {
+    font-style: italic;
+}
+
+#line {
+    align-self: center;
+    width: 70%;
+    margin-bottom: 75px;
+    margin-left: 15%;
+}
+
+#line2 {
+    align-self: center;
+    width: 70%;
+    margin-top: 150px;
+    margin-bottom: 75px;
+    margin-left: 15%;
+}
+
+.testimonials {
+    position: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 37.5%;
+}
+
+.testimonials2 {
+    position: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 37.5%;
+    margin-top: 100px;
+}
+
+.client-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.client-designation {
+    color: grey;
+}
+
+.client-testimonial {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 25px;
+    color: grey;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
